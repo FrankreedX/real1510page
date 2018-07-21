@@ -10,29 +10,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<script>$(document).ready(function(){
-
-  $(window).scroll(function(){
-
-
-      if ($(window).scrollTop()>300) {
-        $(".scrollup").fadeIn('slow');
-      } else {
-        $(".scrollup").fadeOut('slow');
-      }
-
-
-  });
-
-  $(".scrollup").click(function(){
-
-    $('html,body').animate({scrollTop:0},600);
-    return false;
-
-  });
-
-});
-		</script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
@@ -46,7 +23,6 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
-
 		<!-- Header Wrapper -->
 			<div class="wrapper style1">
 
@@ -255,7 +231,7 @@
           <a href="https://www.firstinspires.org/"><img src="images/first.png" alt="" style="width:75px"></a>
 				</div>
 		</div>
-		<a href="#" class="scrolltop" style="display: inline;"><img src="images/top_button.png" alt="" style="width:60px" class="fa fa-4x fa-arrow-circle-up scroll">
+		<a href="#top" class="scrolltop" id="goTop" style="display: inline;"><img src="images/top_button.png" alt="" style="width:60px" class="fa fa-4x fa-arrow-circle-up scroll">
 		</a>
 	</body>
 </html>
